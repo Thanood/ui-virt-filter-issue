@@ -1,10 +1,10 @@
 <template class="main-view">
     <require from="./app.css"></require>
     <require from="./selectedFilter"></require>
-    <div class="list-options">
-        <label><input type="checkbox" checked.bind="showOnlySelected" />show only selected</label>
-    </div>
     <div class="list-wrapper">
+        <div class="list-options">
+            <label><input type="checkbox" checked.bind="showOnlySelected" />show only selected</label>
+        </div>
         <div class="list">
             <div virtual-repeat.for="item of data | selected:'isSelected':showOnlySelected">
                 <label><input type="checkbox" checked.bind="item.isSelected" /> ${item.title}</label>
