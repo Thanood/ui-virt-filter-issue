@@ -3,7 +3,6 @@
     "dependencies": {
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0-beta.1.2.1",
       "aurelia-framework": "npm:aurelia-framework@^1.0.0-beta.1.2.5",
-      "aurelia-pal-templating": "github:aurelia/templating@1.0.0-beta.2.0.1",
       "aurelia-ui-virtualization": "npm:aurelia-ui-virtualization@^0.4.6"
     },
     "devDependencies": {
