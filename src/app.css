@@ -1,0 +1,17 @@
+[aurelia-app="main"] {
+    display: flex;
+    flex-direction: column;
+}
+
+/*.main-view {
+    display: flex;
+    flex-direction: column;
+}*/
+
+.list-options {
+    flex-grow: 0;
+}
+
+.list-wrapper {
+    flex-grow: 1;
+}
