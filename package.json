@@ -3,7 +3,7 @@
     "dependencies": {
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0-beta.1.2.1",
       "aurelia-framework": "npm:aurelia-framework@^1.0.0-beta.1.2.5",
-      "aurelia-ui-virtualization": "npm:aurelia-ui-virtualization@^0.4.6"
+      "aurelia-ui-virtualization": "github:AStoker/ui-virtualization@fix-array-change"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
